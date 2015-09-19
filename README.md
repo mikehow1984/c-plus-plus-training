@@ -8,21 +8,21 @@ before the key word. My algorithm takes the string and cuts up each word into su
 own struct which includes its position in the sentence. The sentence is then rotated for each word and each permutation of the
 sentence is pushed into a vector of strings:
 
-"The big red dog likes pie"
-"big red dog likes pie The"
-"red dog likes pie The big"
-"dog likes pie The big red"
-"likes pie The big red dog"
-"pie The big red dog likes"
+    "The big red dog likes pie"
+    "big red dog likes pie The"
+    "red dog likes pie The big"
+    "dog likes pie The big red"
+    "likes pie The big red dog"
+    "pie The big red dog likes"
 
 The vector is then alphabetized:
 
-"big red dog likes pie The"
-"dog likes pie The big red"
-"likes pie The big red dog"
-"pie The big red dog likes"
-"red dog likes pie The big"
-"The big red dog likes pie"
+    "big red dog likes pie The"
+    "dog likes pie The big red"
+    "likes pie The big red dog"
+    "pie The big red dog likes"
+    "red dog likes pie The big"
+    "The big red dog likes pie"
 
 and based on the number in the struct of each word the sentences are de-rotated and formatted using string manipulation:
 
