@@ -33,4 +33,4 @@ and based on the number in the struct of each word the sentences are de-rotated 
                   The big       red dog likes pie
                                 The big red dog likes pie
 
-The above is the end result. The left side is in alphabetical order. 
+The above is the end result. The right side is in alphabetical order. 
