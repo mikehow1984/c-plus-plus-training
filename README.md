@@ -27,10 +27,10 @@ The vector is then alphabetized:
 and based on the number in the struct of each word the sentences are de-rotated and formatted using string manipulation:
 
                     The       big red dog likes pie
-            The big red       dog likes pie "
+            The big red       dog likes pie
         The big red dog       likes pie
   The big red dog likes       pie
                 The big       red dog likes pie
-                              The big red dog likes pie"
+                              The big red dog likes pie
 
 The above is the end result. The left side is in alphabetical order. 
